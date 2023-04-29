@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Image from 'next/image'
 import Layout from '../../components/layout_side'
 import Footlayout2 from '../../components/FootLayout_side'
 const Pokeid= ({pokeman , styles}) => {
@@ -9,10 +10,10 @@ const Pokeid= ({pokeman , styles}) => {
       <Layout></Layout>
         <div className='bg-white'>
             <div className='container'>
-            <img src={pokeman.image.hires} alt="" className='w-72 mx-auto pt-16 pb-0 -mb-48 lg:hidden block'/>
+            <Image src={pokeman.image.hires} alt="" className='w-72 mx-auto pt-16 pb-0 -mb-48 lg:hidden block'  width={400} height={400}/>
                 <div className='  flex flex-warp  min-h-screen  items-center justify-center '> 
                     <div className='lg:w-1/3 w-full lg:block hidden'>
-                        <img src={pokeman.image.hires} alt="" />
+                        <Image src={pokeman.image.hires} alt=""  width={100} height={100}/>
                     </div> 
                              
                     <div className='lg:w-2/3 w-full'>
