@@ -13,7 +13,7 @@ const Pokeid= ({pokeman , styles}) => {
             <Image src={pokeman.image.hires} alt="" className='w-72 mx-auto pt-16 pb-0 -mb-48 lg:hidden block'  width={400} height={400}/>
                 <div className='  flex flex-warp  min-h-screen  items-center justify-center '> 
                     <div className='lg:w-1/3 w-full lg:block hidden'>
-                        <Image src={pokeman.image.hires} alt=""  width={100} height={100}/>
+                        <img src={pokeman.image.hires} alt=""  />
                     </div> 
                              
                     <div className='lg:w-2/3 w-full'>
