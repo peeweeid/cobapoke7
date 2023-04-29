@@ -116,7 +116,7 @@ export default function Home({dataUsers , styles }) {
                       <div   className='bg-white hover:bg-third shadow-lg rounded-lg' onClick={()=> router.push (`/pokemon/${poke.id}`)}>
                         <div className='flex justify-center items-center'>
                           <div className='mx-auto px-4 py-2'>
-                              <Image src={poke.image.thumbnail} alt=""  width={200} height={200} />
+                              <img src={poke.image.thumbnail} alt=""  />
                              
                           </div>
                           <div className='px-4 py-2'> 
@@ -160,7 +160,7 @@ export default function Home({dataUsers , styles }) {
                       <div  className='bg-white hover:bg-third shadow-lg rounded-lg' onClick={()=> router.push (`/pokemon/${poke.id}`)}>
                         <div className='flex self-center'>
                           <div className='mx-auto w-full px-4 py-2'>
-                              <Image src={poke.image.thumbnail} alt="" className='mx-auto'  width={200} height={200}/>
+                              <img src={poke.image.thumbnail} alt="" className='mx-auto'/>
                              <h1 className='font-bold text-lg text-center'>{poke.name.english}</h1>
                              <h1 className='font-semibold text-base text-center'>{poke.name.japanese}</h1>
                           </div>
