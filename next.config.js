@@ -4,9 +4,4 @@ const nextConfig = {
 
 }
 
-// module.exports = nextConfig
-module.exports = {
-images: {
-    domains: ['raw.githubusercontent.com'],
-  },
-}
+module.exports = nextConfig
