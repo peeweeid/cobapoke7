@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Image from 'next/image'
 import Layout from '../../components/layout_side'
 import Footlayout2 from '../../components/FootLayout_side'
 const Pokeid= ({pokeman , styles}) => {
